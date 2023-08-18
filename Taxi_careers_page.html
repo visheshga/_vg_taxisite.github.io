@@ -1,0 +1,203 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="taxi_styles.css">
+<link rel="stylesheet" href="taxi_mediaquery.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="book-container">
+              <h2>Online Cab Booking</h2>
+                  <div class="com">
+                  <button type="button" class="b5">Gen</button>
+                  <button type="button" class="b5">Business</button>
+                  <button type="button"class="b5">VIP</button>
+                  </div>
+                  <div class="com1">
+                  <input type="input" class="input_line" placeholder="Name">
+                  <input type="tel" class="input_line" placeholder="Contact Number">
+                  </div>
+                  <div class="com1">
+                  <input type="input" class="input_line" placeholder="Pickup Point">
+                  <input type="input" class="input_line" placeholder="Dropoff Point">
+                  </div>
+                  <div class="com1">
+                  <input type="date"  class="input_line">
+                  <input type="time" class="input_line">
+                  </div>
+                  <div class="com1">
+                  <select class="input_line2">
+                      <option selected="Choose Vehicle Type">Vehicle Type</option>
+                      <option >Taxi</option>
+                      <option>cab</option>
+                      <option>Ride</option>
+                  </select>
+                  <select class="input_line2">
+                      <option selected="Choose Payment Method">Payment Method</option>
+                      <option>UPI</option>
+                      <option>Card</option>
+                      <option>Cash Payment</option>
+                  </select>
+                  </div>
+                  <div class="com1">
+                  <input type="checkbox">Agree to above terms and conditions.
+                  <button class=" b6" id="my" onclick="success_msg()">Book Now</button></div>
+          </div>
+      </div>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="#" id="contact">Call Us<br>+91 987543210<div class ="dial_logo"><img src=" call.png"></div></a>
+</div>
+<div class ="scroller"  onclick= "topFunction()" id= "myButton"><img src=" scroller.webp"></div>
+
+    <div class="navbar" id="topnav">
+        <img src=" get-taxi.png">
+             <div class="menu">
+                 <a href="index.html" target="_parent">Home</a>
+                 <a href="Taxi_aboutus_page.html" target="_parent">About</a>
+                 <a href="Taxi_careers_page.html" target="_parent" class="active">Carrers</a>
+                 <a href="Taxi_safety_page.html" target="_parent">Safety</a>
+                 <a href="Taxi_blog_page.html" target="_parent">Blog</a>
+                 <a href="Taxi_contact_us.html" target="_parent">Contact Us</a>
+             </div>
+             <div class="b_btn" id="myBtn" >Online Booking</div>
+         </div>
+         <div class="career_home">
+                <h3>Reliable and Secure way to Reach any point of the city</h3>
+                <p>We provide affordable and fast way to find a taxi,when and where you need it.</p>
+                <h2>1800-1234-567</h2>
+                <div style="width: auto;" class="career_btn">Join Us</div>
+         </div>
+         <br>
+    <div class="pro">Why Join Us?</div><br><br>
+    <div class="fact">
+        <div class=" logos logos1">
+            <img src=" appreciation.jpg">
+            <h2>Appreciation</h2>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+           </div>
+        <div class="logos logos1">
+            <img src=" flexible.webp">
+            <h2>Flexible Hours</h2>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+            </div>
+        <div class="logos logos1">
+            <img src=" innovative.avif">
+            <h2>Innovation Environment</h2>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                </div>
+        </div>
+        <br><br>
+        <div class="fact">
+            <div class="logos2">
+                <img src=" employee-appreciation.webp"></div>
+            <div class="logos2">
+                <img src=" flexible_hours.jpg"></div>
+            <div class="logos2">
+                    <img src=" innovative_environment.jpg"></div>
+            </div>
+    <br><br>
+    <footer>
+        <div class="footer_content">
+            <div class="f">
+                <h3>About Us</h3>
+                <a href="#" >News</a>
+                <a href="#">Contacts</a>
+                <a href="#">Vacancies</a>
+                <a href="#">Branch news</a>
+                <a href="#">About the Company</a>
+            </div>
+            <div class="f"><h3>Services</h3>
+                <a href="#">Rates</a>
+                <a href="#">Documents</a>
+                <a href="#">Track a Shipment</a>
+                <a href="#">Calculate the cost</a>
+                <a href="#">Find the nearest office</a>
+            </div>
+            <div class="f"><h3>Contact Us</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Group</a>
+                <a href="#">Notification</a>
+                <a href="#">Write to chat</a>
+                <a href="#">Privacy policy</a>
+            </div>
+            <div class="f"><h3>Download apps</h3>
+                <div class="f">
+                    <button type="button" class="buttons"><img src=" g1-logo.jpg"></button>
+                    <button type="button"  class="buttons"><img src=" app-store.jpg"></button>
+                </div>
+                    <h3>Follow Us</h3>
+                        <div class="f1">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="f1">
+                    <h4>Delievery</h4>
+                    <h4>For Business</h4>
+                    <h4>Rates</h4>
+                    <h4>Become a Partner</h4>
+                    <h4>Contacts</h4>
+                </div>
+                <div class="f1">
+                    <input type="text" placeholder="Enter your mail">
+                    <button type="button">Subscribe <span>Newsletter</span> <span>&#8594;</span></button>
+                </div>
+            </div>
+            <div class="copyright">
+                <div>&copy; 2023 All rights reserved.</div>
+            </div>
+            
+        </div>
+       
+    </footer>
+</body>
+<script>
+
+     /* for sticky nav bar */
+     window.onscroll = function() {myFunction()};
+            var navigate = document.getElementById("topnav");
+            var sticky = navigate.offsetTop;
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navigate.classList.add("sticky")
+                        } else {
+                            navigate.classList.remove("sticky");
+                            }
+                        }
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+
+</script>
+</body>
+</html>

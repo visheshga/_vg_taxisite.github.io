@@ -1,0 +1,323 @@
+<html>
+<head>
+<title>Taxi Landing Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="taxi_styles.css">
+<link rel="stylesheet" href="taxi_mediaquery.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="contact">Call Us<br>+91 987543210<div class ="dial_logo"><img src=" call.png"></div></a>
+    </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="book-container">
+
+            <h2>Online Cab Booking</h2>
+                <div class="com">
+                <button type="button" class="b5">Gen</button>
+                <button type="button" class="b5">Business</button>
+                <button type="button"class="b5">VIP</button>
+                </div>
+
+                <div class="com1">
+                <input type="input" class="input_line" placeholder="Name" >
+                <input type="tel" class="input_line" placeholder="Contact Number" required>
+                </div>
+
+                <div class="com1">
+                <input type="input" class="input_line" placeholder="Pickup Point">
+                <input type="input" class="input_line" placeholder="Dropoff Point">
+                </div>
+
+                <div class="com1">
+                <input type="date"  class="input_line">
+                <input type="time" class="input_line">
+                </div>
+                
+                <div class="com1">
+                <select class="input_line2">
+                    <option selected="Choose Vehicle Type">Vehicle Type</option>
+                    <option >Taxi</option>
+                    <option>cab</option>
+                    <option>Ride</option>
+                </select>
+                
+                <select class="input_line2">
+                    <option selected="Choose Payment Method">Payment Method</option>
+                    <option>UPI</option>
+                    <option>Card</option>
+                    <option>Cash Payment</option>
+                </select>
+                </div>
+
+                <div class="com1">
+                <input type="checkbox">Agree to above terms and conditions.
+                <button class=" b6" id="my" onclick="success_msg()">Book Now</button></div>
+
+        </div>
+    </div>
+</div>
+
+<!--ADDING NEW MODAL FOR DOWNLOAD AXO AND SIGNUP AS DRIVER-->
+
+<!-- The Modal -->
+<div id="myModal1" class="modal1">
+    <!-- Modal content -->
+        <div class="modal-content1">
+            <span class="close1">&times;</span>
+                <div class="container1">
+
+                    <div class="signup_logo">
+                        <h3>Download App</h3>
+                        <img src=" gett.jpg">
+                        <button type="button"><img src=" g1-logo.jpg"></button>
+                        <button type="button"><img src=" app-store.jpg"></button></div>
+
+                        <div class="signup_form">
+                    
+                            <h3>Sign Up</h3>
+                            <input type="input" class="input_line3" placeholder="Username" required>
+                            <input type="email" class="input_line3" placeholder="Email" required>
+                            <input type="password" class="input_line3" placeholder="Password" required>
+                            <div class="com1"><input type="checkbox" checked="checked" style="font-size: 18px;"> Remember me</div>
+                            By creating an account,you agree to our terms & conditions.<br>
+                            <button class=" b7">Sign Up</button> 
+                         
+                        </div>
+                        
+                        </div>
+                        
+                </div>
+        </div>
+  </div>
+    <div class ="scroller"  onclick= "topFunction()" id= "myButton"><img src=" scroller.webp"></div>
+    
+    <div class="navbar" id="topnav">
+       <img src=" get-taxi.png"> 
+       <div class="menu"> 
+                <a href="Taxi_home_Page.html" class="active" target="_parent">Home</a>
+                <a href="Taxi_aboutus_page.html" target="_parent">About</a>
+                <a href="Taxi_careers_page.html" target="_parent">Carrers</a>
+                <a href="Taxi_safety_page.html" target="_parent">Safety</a>
+                <a href="Taxi_blog_page.html" target="_parent">Blog</a>
+                <a href="Taxi_contact_us.html" target="_parent">Contact Us</a>
+            </div>
+            <div class="b_btn"id="myBtn" >Online Booking</div>
+        </div>
+    <div class="home_page">
+        <div class="content"><h3>India's FavouriteTaxi Service</h3><br><h1>Let's Explore With Us<br><br></h1><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+            <div class="b12">
+            <button class="b1" id="myBtn1">Download Axo</button>
+            <button class="b2" id="myBtn2">Sign Up As Driver</button></div></div>
+            <div class="image"><img src=" c1.png"></div>
+        </div>
+
+    <div class="about">
+        <div class="about_info"><h1>Safety for All</h1><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p></div>
+        <div class="about_image"><img src=" taxi3.jpg"></div>
+    </div>
+    <br><br><br>
+    <div class="pro">There's a ride for everyone</div>
+    <br><br>
+    <div class="fact">
+        <div class="card"><img src=" c2.png"><h4>For any budget</h4><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p></div>
+        <div class="card"><img src=" c2.png"><h4>For any duration</h4><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p></div>
+        <div class="card"><img src=" c2.png"><h4>For any distance</h4><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p></div>
+    </div><br><br><br>
+    <div class="app">
+        <div class="app_info"><h1>Download App</h1>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.</p>
+            <h2>Make Easy Rides!</h2>
+            <div class="ab"><img src=" easi.png"><p>Book CAB Easily</p></div>
+            <div class="bc"><div class="abc"><img src=" price.jpg"></div><p>Get Exact Price For Trip</p></div>
+            <div class="ca"><div class="abc"><img src=" times.png"></div><p>Accurate Timing</p></div>
+        </div>
+        <div class="app_image"><img src=" Side-App.gif"></div>
+    </div>
+    <br><br>
+    <div class="pro">What's we provides</div>
+    <br><br>
+    <div class="wwp">
+        <button  type="button" class="b b3" onclick=facility();>Facilities</button>
+        <button   type="button" class="b b4" onclick=customer();>Customers</button>
+    </div>
+    <br><br><br>
+    <div class="fact">
+        <div class="logos"><img src=" affordable.png" id="myImage1"><h2 id="message1">Affordable</h2><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p></div>
+        <div class="logos"><img src=" doorstep.png" id="myImage2"><h2 id="message2">Doorstep Pick-up</h2><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p></div>
+        <div class="logos"><img src=" c8.jpg" id="myImage3"><h2 id="message3">Easy Ride</h2><p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p></div>
+    </div>
+<br><br>
+    <br><br>
+    <footer>
+        <div class="footer_content">
+            <div class="f">
+                <h3>About Us</h3>
+                <a href="#">News</a>
+                <a href="#">Contacts</a>
+                <a href="#">Vacancies</a>
+                <a href="#">Branch news</a>
+                <a href="#">About the Company</a>
+            </div>
+            <div class="f"><h3>Services</h3>
+                <a href="#">Rates</a>
+                <a href="#">Documents</a>
+                <a href="#">Track a Shipment</a>
+                <a href="#">Calculate the cost</a>
+                <a href="#">Find the nearest office</a>
+            </div>
+            <div class="f"><h3>Contact Us</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Group</a>
+                <a href="#">Notification</a>
+                <a href="#">Write to chat</a>
+                <a href="#">Privacy policy</a>
+            </div>
+            <div class="f"><h3>Download apps</h3>
+                <div class="f">
+                    <button type="button" class="buttons"><img src=" g1-logo.jpg"></button>
+                    <button type="button"  class="buttons"><img src=" app-store.jpg"></button>
+                </div>
+                    <h3>Follow Us</h3>
+                        <div class="f1">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="f1">
+                    <h4>Delievery</h4>
+                    <h4>For Business</h4>
+                    <h4>Rates</h4>
+                    <h4>Become a Partner</h4>
+                    <h4>Contacts</h4>
+                </div>
+                <div class="f1">
+                    <input type="text" placeholder="Enter your mail">
+                    <button type="button">Subscribe <span>Newsletter</span> <span>&#8594;</span></button>
+                </div>
+            </div>
+            <div class="copyright">
+                <div>&copy; 2023 All rights reserved.</div>
+            </div>
+            
+        </div>
+       
+    </footer>
+    <script>
+
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+            if (event.target == modal) {
+            modal.style.display = "none";
+            }
+            }
+           
+            /* for sticky nav bar */
+            window.onscroll = function() {myFunction()};
+            var navigate = document.getElementById("topnav");
+            var sticky = navigate.offsetTop;
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navigate.classList.add("sticky")
+                        } else {
+                            navigate.classList.remove("sticky");
+                            }
+                        }
+            /* for changing image and content by clicking customers/facilities button */
+            function facility(){
+            document.getElementById('myImage1').src=" affordable.png";
+            document.getElementById('myImage2').src=" doorstep.png";
+            document.getElementById('myImage3').src=" c8.jpg";
+            document.getElementById('message1').innerHTML="Affordable";
+            document.getElementById('message2').innerHTML="Doorstep Pick-up";
+            document.getElementById('message3').innerHTML="Easy Ride";
+            }
+
+            function customer(){
+            document.getElementById('myImage1').src=" f1.jpg";
+            document.getElementById('myImage3').src=" 24-7.jpg";
+            document.getElementById('myImage2').src=" insure.jpg";
+            document.getElementById('message1').innerHTML="Redeemable";
+            document.getElementById('message3').innerHTML="24/7 Availability";
+            document.getElementById('message2').innerHTML="Insured Ride";
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+
+            /*successfull booking*/
+            function success_msg() {
+            alert("Booking Confirm! Your Vehicle is on your Way");
+            }
+
+
+// Get the modal
+var modals = document.getElementById("myModal1");
+
+// Get the button that opens the modal
+var btns = document.getElementById("myBtn1");
+var btns2 = document.getElementById("myBtn2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close1")[0];
+
+// When the user clicks the button, open the modal 
+btns.onclick = function() {
+  modals.style.display = "block";
+}
+btns2.onclick = function() {
+  modals.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modals.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modals) {
+    modals.style.display = "none";
+  }
+}
+
+/*let isShow = true;
+function manageShowHide(){
+    document.querySelector('#showHideDiv').style.display = isShow ? 'none':'inline-flex'; 
+    isShow = !isShow;
+}*/
+
+    </script>
+</body>
+</html>
