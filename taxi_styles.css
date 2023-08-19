@@ -816,6 +816,119 @@
 .found h3{
     font-size: 25px;
     }
+    .covers_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+    .covers_image{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .covers_image img{
+        width:350px;
+        height:400px;
+        border-radius:8px;
+    }
+    .covers_image h4{
+        font-size: 20px;
+    }
+    .covers_image p{
+        font-size: 18px;
+        width:350px;
+        text-align: justify;
+    }
+    .benefit_container{
+        background-color: #fdb628;
+        margin: 0% 10%;
+        padding:30px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+    .benefit_image{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .benefit_image img{
+        width:100px;
+        height:100px;
+        mix-blend-mode: multiply;
+    }
+    .benefit_image h4{
+        font-size: 20px;
+    }
+    .benefit_image p{
+        font-size: 18px;
+        width:300px;
+        text-align: center;
+    }
+    .known_btn{
+    background-color: #ff9b05;
+    border-style: solid;
+    border-radius: 30px;
+    height:auto;
+    width: auto;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding:10px 32px;
+    cursor: pointer;
+    border: 2px solid white;
+    }
+.known_btn:hover{
+    border: 2px solid #fdb628;
+    color:#fdb628;
+    background: black;
+    transition: 0.4s ease-in;
+    }
+    .way_container{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width:100%;
+        gap: 10px;
+        }
+        .way_info{
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        height:100%;
+        width:auto;
+        gap: 15px;
+        }
+    .way_info img{
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        box-shadow: 10px -5px  #fdb628;
+        }
+    .way_info h2{
+        font-size: 25px;
+        }
+    .way_info p{
+        font-size:18px;
+        width:400px;
+        text-align: center;
+        }
 .career_btn{
     background-color: #ff9b05;
     border-style: solid;
